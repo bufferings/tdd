@@ -22,6 +22,7 @@ public class MoneyTest {
   // TODO: timesの一般化
   // DONE: FrancとDollarを比較する
   // TODO: 通貨の概念
+  // TODO: testFrancMultiplicationを削除する？
 
   @Test
   public void testMultiplication() {
