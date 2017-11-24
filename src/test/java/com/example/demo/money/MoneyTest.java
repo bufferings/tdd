@@ -14,6 +14,8 @@ public class MoneyTest {
   // TODO: Moneyの丸め処理どうする？
   // DONE: equals()
   // TODO: hashCode()
+  // TODO: nullとの等価性比較
+  // TODO: 他のオブジェクトとの等価性比較
 
   @Test
   public void testMultiplication() {
