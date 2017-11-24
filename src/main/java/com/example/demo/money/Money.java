@@ -3,7 +3,7 @@ package com.example.demo.money;
 abstract class Money {
 
   static Money dollar(int amount) {
-    return new Dollar(amount, null);
+    return new Dollar(amount, "USD");
   }
 
   static Franc franc(int amount) {
