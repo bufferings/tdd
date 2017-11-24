@@ -9,7 +9,7 @@ import org.junit.Test;
 public class MoneyTest {
   // TODO: $5 + 10CHF(スイスフラン) = $10(レートが2:1の場合)
   // DONE: $5 * 2 = $10
-  // TODO: amountをprivateにする
+  // DONE: amountをprivateにする
   // DONE: Dollarの副作用どうする？
   // TODO: Moneyの丸め処理どうする？
   // DONE: equals()
