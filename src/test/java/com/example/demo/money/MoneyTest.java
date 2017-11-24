@@ -19,7 +19,7 @@ public class MoneyTest {
   // DONE: 5CHF * 2 = 10CHF
   // -> TODO: DollarとFrancの重複
   // DONE: equalsの一般化
-  // TODO: timesの一般化
+  // DONE: timesの一般化
   // DONE: FrancとDollarを比較する
   // DONE: 通貨の概念
   // TODO: testFrancMultiplicationを削除する？
