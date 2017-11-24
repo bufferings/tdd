@@ -12,9 +12,4 @@ class Dollar extends Money {
     return new Dollar(amount * multiplier);
   }
 
-  @Override
-  String currency() {
-    return currency;
-  }
-
 }

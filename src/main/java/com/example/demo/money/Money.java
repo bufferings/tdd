@@ -16,7 +16,9 @@ abstract class Money {
 
   abstract Money times(int multiplier);
 
-  abstract String currency();
+  String currency() {
+    return currency;
+  }
 
   @Override
   public boolean equals(Object obj) {
