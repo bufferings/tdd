@@ -7,22 +7,12 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 public class MoneyTest {
-  // TODO: $5 + 10CHF(スイスフラン) = $10(レートが2:1の場合)
-  // DONE: $5 * 2 = $10
-  // DONE: amountをprivateにする
-  // DONE: Dollarの副作用どうする？
+  // -> TODO: $5 + 10CHF = $10(レートが2:1の場合)
+
   // TODO: Moneyの丸め処理どうする？
-  // DONE: equals()
   // TODO: hashCode()
   // TODO: nullとの等価性比較
   // TODO: 他のオブジェクトとの等価性比較
-  // DONE: 5CHF * 2 = 10CHF
-  // DONE: DollarとFrancの重複
-  // DONE: equalsの一般化
-  // DONE: timesの一般化
-  // DONE: FrancとDollarを比較する
-  // DONE: 通貨の概念
-  // DONE: testFrancMultiplicationを削除する？
 
   @Test
   public void testMultiplication() {
