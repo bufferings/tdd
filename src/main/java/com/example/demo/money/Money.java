@@ -19,7 +19,9 @@ class Money {
     this.currency = currency;
   }
 
-  abstract Money times(int multiplier);
+  Money times(int multiplier) {
+    return null;
+  }
 
   String currency() {
     return currency;
