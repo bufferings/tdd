@@ -16,7 +16,7 @@ public class MoneyTest {
   // TODO: hashCode()
   // TODO: nullとの等価性比較
   // TODO: 他のオブジェクトとの等価性比較
-  // TODO: 5CHF * 2 = 10CHF
+  // DONE: 5CHF * 2 = 10CHF
 
   @Test
   public void testMultiplication() {
@@ -29,5 +29,12 @@ public class MoneyTest {
   public void testEquality() {
     assertTrue(new Dollar(5).equals(new Dollar(5)));
     assertFalse(new Dollar(5).equals(new Dollar(6)));
+  }
+
+  @Test
+  public void testFrancMultiplication() {
+    Franc five = new Franc(5);
+    assertEquals(new Franc(10), five.times(2));
+    assertEquals(new Franc(15), five.times(3));
   }
 }
