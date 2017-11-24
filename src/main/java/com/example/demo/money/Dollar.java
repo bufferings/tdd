@@ -8,7 +8,7 @@ class Dollar extends Money {
 
   @Override
   Money times(int multiplier) {
-    return new Dollar(amount * multiplier, currency);
+    return new Money(amount * multiplier, currency);
   }
 
 }
