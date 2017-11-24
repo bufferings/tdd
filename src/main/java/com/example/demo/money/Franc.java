@@ -1,8 +1,6 @@
 package com.example.demo.money;
 
-class Franc {
-
-  private int amount;
+class Franc extends Money {
 
   Franc(int amount) {
     this.amount = amount;
@@ -14,8 +12,8 @@ class Franc {
 
   @Override
   public boolean equals(Object obj) {
-    Franc dollar = (Franc) obj;
-    return amount == dollar.amount;
+    Franc franc = (Franc) obj;
+    return amount == franc.amount;
   }
 
 }
