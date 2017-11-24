@@ -1,6 +1,6 @@
 package com.example.demo.money;
 
-abstract class Money {
+class Money {
 
   static Money dollar(int amount) {
     return new Dollar(amount, "USD");
