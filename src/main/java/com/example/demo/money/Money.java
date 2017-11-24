@@ -1,6 +1,6 @@
 package com.example.demo.money;
 
-class Money {
+abstract class Money {
 
   static Dollar dollar(int amount) {
     return new Dollar(amount);
@@ -13,5 +13,7 @@ class Money {
     Money money = (Money) obj;
     return amount == money.amount && getClass().equals(money.getClass());
   }
+
+  abstract Money times(int multiplier);
 
 }
