@@ -10,6 +10,8 @@ public class MoneyTest {
   // TODO: amountをprivateにする
   // DONE: Dollarの副作用どうする？
   // TODO: Moneyの丸め処理どうする？
+  // TODO: equals()
+  // TODO: hashCode()
 
   @Test
   public void testMultiplication() {
