@@ -2,7 +2,7 @@ package com.example.demo.money;
 
 abstract class Money {
 
-  static Dollar dollar(int amount) {
+  static Money dollar(int amount) {
     return new Dollar(amount);
   }
 
