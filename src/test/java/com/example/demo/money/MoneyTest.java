@@ -20,7 +20,8 @@ public class MoneyTest {
   // TODO: DollarとFrancの重複
   // DONE: equalsの一般化
   // TODO: timesの一般化
-  // -> TODO: FrancとDollarを比較する
+  // DONE: FrancとDollarを比較する
+  // TODO: 通貨の概念
 
   @Test
   public void testMultiplication() {
