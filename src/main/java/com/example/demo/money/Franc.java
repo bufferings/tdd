@@ -2,14 +2,14 @@ package com.example.demo.money;
 
 class Franc extends Money {
 
-  Franc(int amount) {
+  Franc(int amount, String currency) {
     this.amount = amount;
-    this.currency = "CHF";
+    this.currency = currency;
   }
 
   @Override
   Money times(int multiplier) {
-    return new Franc(amount * multiplier);
+    return Money.franc(amount * multiplier);
   }
 
 }
