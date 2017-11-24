@@ -12,12 +12,13 @@ abstract class Money {
 
   int amount;
 
+  abstract Money times(int multiplier);
+
+  abstract String currency();
+
   @Override
   public boolean equals(Object obj) {
     Money money = (Money) obj;
     return amount == money.amount && getClass().equals(money.getClass());
   }
-
-  abstract Money times(int multiplier);
-
 }
