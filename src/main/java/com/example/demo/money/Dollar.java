@@ -1,6 +1,6 @@
 package com.example.demo.money;
 
-class Dollar {
+class Dollar extends Money {
 
   private int amount;
 

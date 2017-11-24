@@ -17,6 +17,9 @@ public class MoneyTest {
   // TODO: nullとの等価性比較
   // TODO: 他のオブジェクトとの等価性比較
   // DONE: 5CHF * 2 = 10CHF
+  // TODO: DollarとFrancの重複
+  // -> TODO: equalsの一般化
+  // TODO: timesの一般化
 
   @Test
   public void testMultiplication() {
