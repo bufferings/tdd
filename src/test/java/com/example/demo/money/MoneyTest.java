@@ -8,6 +8,7 @@ import org.junit.Test;
 
 public class MoneyTest {
   // -> TODO: $5 + 10CHF = $10(レートが2:1の場合)
+  // TODO: $5 + $5 = $10
 
   // TODO: Moneyの丸め処理どうする？
   // TODO: hashCode()
