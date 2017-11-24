@@ -32,4 +32,9 @@ class Money {
     Money money = (Money) obj;
     return amount == money.amount && getClass().equals(money.getClass());
   }
+
+  @Override
+  public String toString() {
+    return amount + " " + currency;
+  }
 }
