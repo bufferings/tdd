@@ -1,6 +1,6 @@
 package com.example.demo.money;
 
-class Money {
+class Money implements Expression {
 
   static Money dollar(int amount) {
     return new Money(amount, "USD");
