@@ -38,7 +38,8 @@ class Money implements Expression {
     return amount + " " + currency;
   }
 
-  Expression plus(Expression addend) {
+  @Override
+  public Expression plus(Expression addend) {
     return new Sum(this, addend);
   }
 

@@ -7,12 +7,14 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 public class MoneyTest {
-  // -> TODO: $5 + 10CHF = $10(レートが2:1の場合)
+  // DONE: $5 + 10CHF = $10(レートが2:1の場合)
   // DONE: $5 + $5 = $10
   // TODO: $5 + $5がMoneyを返す
   // DONE: Bank.reduce(Money)
   // DONE: Moneyを変換して換算を行う
   // DONE: Reduce(Bank, String)
+  // TODO: Sum.plus
+  // TODO: Expression.times
 
   // TODO: Moneyの丸め処理どうする？
   // TODO: hashCode()
@@ -87,7 +89,7 @@ public class MoneyTest {
 
   @Test
   public void testMixedAddition() {
-    Money fiveBucks = Money.dollar(5);
+    Expression fiveBucks = Money.dollar(5);
     Expression tenFrancs = Money.franc(10);
     Bank bank = new Bank();
     bank.addRate("CHF", "USD", 2);
