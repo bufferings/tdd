@@ -13,7 +13,7 @@ public class MoneyTest {
   // DONE: Bank.reduce(Money)
   // DONE: Moneyを変換して換算を行う
   // DONE: Reduce(Bank, String)
-  // TODO: Sum.plus
+  // DONE: Sum.plus
   // TODO: Expression.times
 
   // TODO: Moneyの丸め処理どうする？
