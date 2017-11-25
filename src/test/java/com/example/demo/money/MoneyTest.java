@@ -80,11 +80,4 @@ public class MoneyTest {
     assertEquals(Money.dollar(1), result);
   }
 
-  @Test
-  public void testArrayEquals() {
-    // 現在だと内部的にassertArrayEqualsが使用されるようでtrueになってしまう
-    // assertEquals(new Object[] { "abc" }, new Object[] { "abc" });
-    // 本来確認したかったのはこういうことかな
-    assertTrue((new Object[] { "abc" }).equals(new Object[] { "abc" }));
-  }
 }
