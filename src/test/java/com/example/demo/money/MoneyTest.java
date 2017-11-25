@@ -9,7 +9,7 @@ import org.junit.Test;
 public class MoneyTest {
   // DONE: $5 + 10CHF = $10(レートが2:1の場合)
   // DONE: $5 + $5 = $10
-  // TODO: $5 + $5がMoneyを返す
+  // WON'T DO: $5 + $5がMoneyを返す
   // DONE: Bank.reduce(Money)
   // DONE: Moneyを変換して換算を行う
   // DONE: Reduce(Bank, String)
@@ -119,9 +119,4 @@ public class MoneyTest {
     assertEquals(Money.dollar(20), result);
   }
 
-  @Test
-  public void testPlusSameCurrencyReturnsMoney() {
-    Expression sum = Money.dollar(1).plus(Money.dollar(1));
-    assertTrue(sum instanceof Money);
-  }
 }
