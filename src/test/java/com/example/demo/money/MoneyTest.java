@@ -14,7 +14,7 @@ public class MoneyTest {
   // DONE: Moneyを変換して換算を行う
   // DONE: Reduce(Bank, String)
   // DONE: Sum.plus
-  // TODO: Expression.times
+  // DONE: Expression.times
 
   // TODO: Moneyの丸め処理どうする？
   // TODO: hashCode()
@@ -118,4 +118,5 @@ public class MoneyTest {
     Money result = bank.reduce(sum, "USD");
     assertEquals(Money.dollar(20), result);
   }
+
 }
