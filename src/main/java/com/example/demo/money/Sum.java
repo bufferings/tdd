@@ -1,6 +1,6 @@
 package com.example.demo.money;
 
-class Sum {
+class Sum implements Expression {
   Money augend;
   Money addend;
 
